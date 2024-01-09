@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+}
+@font-face {
+    font-family: myfonts;
+    src: url(ITEMS/Cako-Black.ttf);
+}
+@font-face {
+    font-family: font-1;
+    src: url(ITEMS/Cako-Regular.ttf);
+}
+
+/* SECTION 1 */
+
+#sec-1{
+    background: url(ITEMS/image-sec-1.png);
+    height: 120vh;
+    width: 100%;
+    background-size:cover ;
+    background-position: center;
+    
+}
+.topnav{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    word-spacing: 50px;
+}
+.topnav a {
+    color: #fff;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 20px;
+    font-family: font-1;
+  }
+#nexus{
+    font-family: myfonts;
+    font-size: 25px;
+}
+.title-1{
+    color: white;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.title-1 h1{
+    font-family: font-1;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 70px;
+}
+.title-1 p{
+font-family: font-1;
+font-size: 25px;
+word-spacing: 15px;
+}
+
+/* SECTION 2 */
+
+#sec-2{
+    background-color: black;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+.title{
+    margin-top: 0px;
+    color: white;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.title h1{
+    font-family: font-1;
+    font-size: 35px;
+    font-weight: lighter;
+}
+.title p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 6rem;
+    font-weight: lighter;
+}
+.content{
+    color: white;
+    display:flex;
+    flex-wrap:wrap;
+    text-align: left;
+    padding-left: 4rem;
+    padding-bottom: 6rem;
+}
+.about{
+    padding-left: 3.5rem;
+}
+.about > h1{
+    font-family: font-1;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
+}
+.about > p{
+    font-size: 20px;
+    padding-bottom: 2.5rem;
+}
+.leo{
+    color: white;
+    height: auto;
+    text-align: center;
+    background: url(ITEMS/leopard.png);
+    background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   padding-bottom: 3rem;
+}
+.leo > h1{
+    padding-top: 3.5rem;
+    color: rgb(200, 255, 0);
+    font-family: myfonts;
+    font-size: 50px;
+    padding-bottom: 1.5rem;
+}
+.leo > p{
+    font-size: 20px;
+    padding-bottom: 1.5rem;
+
+}
+
+/* SECTION 3 */
+
+#sec-3{
+    background-color: rgb(119, 19, 212);
+    height: auto;
+    text-align: center;
+    color: white;
+    padding: 1.5rem;
+}
+#sec-3 > h1{
+    font-family: myfonts;
+    font-size: 40px;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+#sec-3 > p{
+    padding-bottom: 3rem;
+}
+
+/* SECTION 4 */
+
+#sec-4{
+    background:url(ITEMS/mountains\ sunset\ AI\ Image\ 2\ 2.png);
+    background-size: cover;
+    text-align: center;
+    height: auto;
+}
+.vector{
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+
+}
+.foot{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 15rem;
+    display: flex;
+    flex-basis: content;
+    text-align: center;
+    color: #fff;
+}
+.nex-foot{
+    font-size: 45px;
+    font-family: myfonts;
+    padding-top: 20px;
+}
+.es{
+    font-size: 120px;
+    font-family: myfonts;
+}
+.foot-word{
+    font-size: 25px;
+    font-family: myfonts;
+    padding-top: 50px;
+    padding-left: 6rem;
+    padding-right: 7rem;
+}
+
+/* SETCION5 */
+
+#sec-5 {
+    background-color: #000;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    word-spacing: 50px;
+    font-family: myfonts;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
